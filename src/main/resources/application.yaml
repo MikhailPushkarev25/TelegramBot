@@ -4,8 +4,12 @@ telegram.token: <5151417157:AAEQS72cJv2z6ddXgwakFVyTLvJTjPlgQYs>
 telegram.webhook-path: <?? ???? ????>
 server.port: <?? ???? ????>
 
-spring.redis.database: 0
-spring.redis.host: <???? ?? Redis>
-spring.redis.port: <???? ?? Redis>
-spring.redis.password: <?????? ?? Redis>
-spring.redis.ssl: true
+#spring.redis.database: 0
+#spring.redis.host: <???? ?? Redis>
+#spring.redis.port: <???? ?? Redis>
+#spring.redis.password: <?????? ?? Redis>
+#spring.redis.ssl: true
+
+spring.datasource.url: jdbc:postgresql://ec2-52-73-149-159.compute-1.amazonaws.com:5432/d67ietu59q6scu
+spring.datasource.username: bpdeibpznwqyxw
+spring.datasource.password: 2f7742d27a2c2c8d6c265d622d9c9662c97f58cf41d4adce81b17dce304f59d0
